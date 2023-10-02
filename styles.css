@@ -14,7 +14,9 @@
 
 .red,
 .yellow,
-.blue {
+.blue,
+.pink,
+.grey {
   height: 200px;
   width: 200px;
 }
@@ -32,4 +34,14 @@
 .blue {
   background-color: blue;
   align-self: flex-end;
+}
+
+.pink {
+  background-color: rgb(226, 58, 153);
+  align-self: flex-end;
+}
+
+.grey {
+  background-color: rgb(98, 92, 92);
+  order: -1;
 }
